@@ -7,7 +7,7 @@ import Main from './src/components/Main';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Title title='One Bit Health' />
+      <Title title='Descubra seu imc' />
       <Main />
       <StatusBar style="auto" />
     </View>

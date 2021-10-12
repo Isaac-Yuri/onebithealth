@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textTransform: 'uppercase',
     fontWeight: 'bold',
-    color: 'rgb(148, 1, 50)',
+    fontSize: 22,
+    color: 'rgb(170, 5, 50)',
   },
 });

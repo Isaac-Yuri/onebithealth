@@ -4,12 +4,21 @@ import Form from '../Form';
 
 function Main() {
   return(
-    <View>
+    <View style={styles.container}>
       <Form />
     </View>
   );
 };
 
-
+const styles = StyleSheet.create({
+  container: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'white',
+    padding: 30,
+    borderTopLeftRadius: 35,
+    borderTopRightRadius: 35,
+  },
+});
 
 export default Main;
